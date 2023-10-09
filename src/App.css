@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #639;
+    font-family: 'Inter', sans-serif;
+}
+
+.formContainer {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+.form>.form-input {
+    width: 110%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+.form>.form-checkbox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size:16px;
+}
